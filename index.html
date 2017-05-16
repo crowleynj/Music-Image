@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<meta name = "viewport" content ="initial-scale=1, width = device-width">
+<title>Music & Image Box</title>
+<meta name="Music & Image Box" content="Simple JavaScript Audio Visual music box project. Each element plays a different musical sequence, of which the user can control the volume (V) and playback speed (S). A unique piece of music is created every time by playing any combination of the elements at different volumes, speeds and starting points with co-inciding visual shapes. (Currently only desktop and tablet friendly)">
+
+<link href="css/css.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="tracks">
+
+<div id="track1">
+      <button id="button" onclick="play1()"><img id="playimage1" src="_images/play.png" alt="Submit"></button></br>
+      <audio id="Loop1" src="tracks/loop1.wav"></audio></br>
+      <p id="controls">- V +</p>
+      <input id="volumeslider1" type="range" min="0.20" max="1" value="0.60" step="0.1"></br>
+      <p id="controls">- S +</p>
+      <input id="audioslider1" type="range" min="0.5" max="1.5" value="1" step="0.25"></br>
+      </br>
+</div>
+
+ <div id="track2">
+      <button id="button" onclick="play2()"><img id="playimage2" src="_images/play.png" alt="Submit"></button></br>
+      <audio id="Loop2" src="tracks/loop2.wav"></audio></br>
+      <p id="controls">- V +</p>
+      <input id="volumeslider2" type="range" min="0.20" max="1" value="0.60" step="0.1"></br>
+      <p id="controls">- S +</p>
+      <input id="audioslider2" type="range" min="0.5" max="1.5" value="1" step="0.25"></br>
+      </br>
+</div>
+
+<div id="track3">
+      <button id="button" onclick="play3()"><img id="playimage3" src="_images/play.png" alt="Submit"></button></br>
+      <audio id="Loop3" src="tracks/loop3.wav"></audio></br>
+      <p id="controls">- V +</p>
+      <input id="volumeslider3" type="range" min="0.20" max="1" value="0.60" step="0.1"></br>
+      <p id="controls">- S +</p>
+      <input id="audioslider3" type="range" min="0.5" max="1.5" value="1" step="0.25"></br>
+      </br>
+</div>
+
+<div id="track4">
+      <button id="button" onclick="play4()"><img id="playimage4" src="_images/play.png" alt="Submit"></button></br>
+      <audio id="Loop4" src="tracks/loop4.wav"></audio></br>
+      <p id="controls">- V +</p>
+      <input id="volumeslider4" type="range" min="0.20" max="1" value="0.60" step="0.1"></br>
+      <p id="controls">- S +</p>
+      <input id="audioslider4" type="range" min="0.5" max="1.5" value="1" step="0.25"></br>
+      </br>
+</div>
+
+</div>
+
+<div id="icons">
+    <div id="one">
+      <span id="move"> 
+      </span>
+      </div>
+      <span id="move2"></span>
+      <div id="three">
+      <span id="move3"></span>
+      </div>
+      <div id="four">
+      <span id="move4"></span>
+      </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/js.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
