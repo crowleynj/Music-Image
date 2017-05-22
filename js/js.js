@@ -139,7 +139,7 @@ var audioslider2 = document.getElementById("audioslider2");
   audioslider2.addEventListener("mousemove", slow2);
 
 function slow2() {  
-var audio2 = document.getElementById("Loop1");
+var audio2 = document.getElementById("Loop2");
   audio2.playbackRate = audioslider2.value / 1;
   var move2 = document.getElementById("move2");
  if (audioslider2.value == 1) {
